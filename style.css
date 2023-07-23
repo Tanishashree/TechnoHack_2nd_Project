@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(JHYTI.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+#calculator {
+    max-width: 300px;
+    min-width:200px;
+    margin: 60px auto;
+    background-color:rgb(253, 255, 240);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#screen {
+    background-color:rgba(0, 0, 0, 0.575);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+#output {
+   
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+    color: #ffff00;
+    margin-bottom: 10px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    border-radius: 50px;
+    
+}
+#input{
+    /* bottom: 5px; */
+    font-size: 30px;
+    color: darkorange;
+    margin-top: 10px;
+    text-align:right;
+    margin-right: 10px;
+   
+
+}
+
+button {
+    padding: 10px;
+    font-size:30px;
+    background-color:rgba(0, 0, 0, 0.251);
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    color: brown;
+   text-align: center;
+
+}
+
+button:hover {
+    background-color: rgba(137, 43, 226, 0.304);
+}
+
+button:active {
+    background-color:pink;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width:600px)
+{
+    #calculator{
+        margin-top: 100px;
+        
+    }
+}
